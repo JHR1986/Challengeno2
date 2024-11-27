@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="941e91cb-37ec-46bc-bf2b-3d92d2d0a4a9" name="jhroc@LAPTOP-O110GFLH 2024-11-26 21:21:33" runUser="LAPTOP-O110GFLH\jhroc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-11-26T21:21:33.5797651+00:00" queuing="2024-11-26T21:21:33.5797656+00:00" start="2024-11-26T21:21:30.2378148+00:00" finish="2024-11-26T21:21:33.5897906+00:00" />
+  <TestSettings name="default" id="adc83f99-f3fe-49e4-948b-c999ff7db071">
+    <Deployment runDeploymentRoot="jhroc_LAPTOP-O110GFLH_2024-11-26_21_21_33" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f0d1a0db-5514-4f20-8dfb-df7876be3ace" testId="4b10ed82-8942-811f-abd8-d7b38956c110" testName="DeletePost_ShouldReturnNoContent" computerName="LAPTOP-O110GFLH" duration="00:00:00.1993109" startTime="2024-11-26T21:21:32.6566440+00:00" endTime="2024-11-26T21:21:32.8559542+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0d1a0db-5514-4f20-8dfb-df7876be3ace" />
+    <UnitTestResult executionId="d6afebc3-1c19-4ec4-bb39-6eb8cfa7f183" testId="a83ab77a-dbb7-c3ff-42e6-34b9d6235ad0" testName="UpdatePost_ShouldReturnUpdatedPost" computerName="LAPTOP-O110GFLH" duration="00:00:00.3004820" startTime="2024-11-26T21:21:32.9269366+00:00" endTime="2024-11-26T21:21:33.2274178+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6afebc3-1c19-4ec4-bb39-6eb8cfa7f183" />
+    <UnitTestResult executionId="80acb34a-b764-47bb-86da-1cf565be8ab5" testId="fb96a7a7-8d84-a5b5-18e8-7cd1d232ac6b" testName="CreatePost_ShouldReturnCreatedPost" computerName="LAPTOP-O110GFLH" duration="00:00:00.8061610" startTime="2024-11-26T21:21:31.8478967+00:00" endTime="2024-11-26T21:21:32.6539421+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80acb34a-b764-47bb-86da-1cf565be8ab5" />
+    <UnitTestResult executionId="4f51b33a-bb25-4b59-923e-9c2fd2d93874" testId="642cd53e-aa86-90d2-9228-1ab3e0479250" testName="Test1" computerName="LAPTOP-O110GFLH" duration="00:00:00.0635110" startTime="2024-11-26T21:21:33.2368983+00:00" endTime="2024-11-26T21:21:33.3004100+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f51b33a-bb25-4b59-923e-9c2fd2d93874" />
+    <UnitTestResult executionId="efae9b48-1df6-4c43-83d2-b35e3cc3d525" testId="3c0106e3-23db-833e-62ae-14bcacd23ec9" testName="GetPostById_ShouldReturnPost" computerName="LAPTOP-O110GFLH" duration="00:00:00.0705820" startTime="2024-11-26T21:21:32.8562788+00:00" endTime="2024-11-26T21:21:32.9268612+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efae9b48-1df6-4c43-83d2-b35e3cc3d525" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test1" storage="c:\users\jhroc\.vscode\challengeno2\bin\debug\net9.0\challengeno2.dll" id="642cd53e-aa86-90d2-9228-1ab3e0479250">
+      <Execution id="4f51b33a-bb25-4b59-923e-9c2fd2d93874" />
+      <TestMethod codeBase="C:\Users\jhroc\.vscode\Challengeno2\bin\Debug\net9.0\Challengeno2.dll" adapterTypeName="executor://nunit3testexecutor/" className="Challengeno2.Tests" name="Test1" />
+    </UnitTest>
+    <UnitTest name="GetPostById_ShouldReturnPost" storage="c:\users\jhroc\.vscode\challengeno2\bin\debug\net9.0\challengeno2.dll" id="3c0106e3-23db-833e-62ae-14bcacd23ec9">
+      <Execution id="efae9b48-1df6-4c43-83d2-b35e3cc3d525" />
+      <TestMethod codeBase="C:\Users\jhroc\.vscode\Challengeno2\bin\Debug\net9.0\Challengeno2.dll" adapterTypeName="executor://nunit3testexecutor/" className="ApiTests.ApiTests" name="GetPostById_ShouldReturnPost" />
+    </UnitTest>
+    <UnitTest name="CreatePost_ShouldReturnCreatedPost" storage="c:\users\jhroc\.vscode\challengeno2\bin\debug\net9.0\challengeno2.dll" id="fb96a7a7-8d84-a5b5-18e8-7cd1d232ac6b">
+      <Execution id="80acb34a-b764-47bb-86da-1cf565be8ab5" />
+      <TestMethod codeBase="C:\Users\jhroc\.vscode\Challengeno2\bin\Debug\net9.0\Challengeno2.dll" adapterTypeName="executor://nunit3testexecutor/" className="ApiTests.ApiTests" name="CreatePost_ShouldReturnCreatedPost" />
+    </UnitTest>
+    <UnitTest name="DeletePost_ShouldReturnNoContent" storage="c:\users\jhroc\.vscode\challengeno2\bin\debug\net9.0\challengeno2.dll" id="4b10ed82-8942-811f-abd8-d7b38956c110">
+      <Execution id="f0d1a0db-5514-4f20-8dfb-df7876be3ace" />
+      <TestMethod codeBase="C:\Users\jhroc\.vscode\Challengeno2\bin\Debug\net9.0\Challengeno2.dll" adapterTypeName="executor://nunit3testexecutor/" className="ApiTests.ApiTests" name="DeletePost_ShouldReturnNoContent" />
+    </UnitTest>
+    <UnitTest name="UpdatePost_ShouldReturnUpdatedPost" storage="c:\users\jhroc\.vscode\challengeno2\bin\debug\net9.0\challengeno2.dll" id="a83ab77a-dbb7-c3ff-42e6-34b9d6235ad0">
+      <Execution id="d6afebc3-1c19-4ec4-bb39-6eb8cfa7f183" />
+      <TestMethod codeBase="C:\Users\jhroc\.vscode\Challengeno2\bin\Debug\net9.0\Challengeno2.dll" adapterTypeName="executor://nunit3testexecutor/" className="ApiTests.ApiTests" name="UpdatePost_ShouldReturnUpdatedPost" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4b10ed82-8942-811f-abd8-d7b38956c110" executionId="f0d1a0db-5514-4f20-8dfb-df7876be3ace" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a83ab77a-dbb7-c3ff-42e6-34b9d6235ad0" executionId="d6afebc3-1c19-4ec4-bb39-6eb8cfa7f183" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb96a7a7-8d84-a5b5-18e8-7cd1d232ac6b" executionId="80acb34a-b764-47bb-86da-1cf565be8ab5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="642cd53e-aa86-90d2-9228-1ab3e0479250" executionId="4f51b33a-bb25-4b59-923e-9c2fd2d93874" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c0106e3-23db-833e-62ae-14bcacd23ec9" executionId="efae9b48-1df6-4c43-83d2-b35e3cc3d525" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running all tests in C:\Users\jhroc\.vscode\Challengeno2\bin\Debug\net9.0\Challengeno2.dll&#xD;
+   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
